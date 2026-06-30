@@ -1,0 +1,4 @@
+figures/model_performance_comparison.png
+figures/regime_specific_accuracy.png
+figures/rolling_window_accuracy.png
+figures/overfitting_gap.png
