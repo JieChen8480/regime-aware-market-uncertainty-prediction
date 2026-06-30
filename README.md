@@ -46,21 +46,6 @@ The workflow includes:
 
 ⸻
 
-Repository Structure
-
-regime-aware-market-uncertainty-prediction/
-│
-├── Regime_Dependent_Prediction_Under_Market_Uncertainty.ipynb
-├── GitHub_Ready_Regime_Uncertainty_ML_Project.py
-├── data/
-│   └── feature_futures_5min.csv
-├── outputs/
-│   ├── model_performance_summary.csv
-│   ├── regime_specific_performance.csv
-│   ├── rolling_window_results.csv
-│   └── rolling_window_summary.csv
-└── README.md
-
 If no external dataset is available, the notebook includes a synthetic-data fallback so that the full workflow can still be executed and reviewed.
 
 ⸻
@@ -198,9 +183,6 @@ This framing is relevant to Operations Management and Operations Research becaus
 
 ⸻
 
-Relevance to Operations Management Research
-
-Although the empirical setting is financial market data, the methodological focus is closely related to Operations Management research.
 
 The project addresses a broader question:
 
@@ -219,22 +201,6 @@ The project demonstrates preparation for research involving:
 
 ⸻
 
-How to Run
-
-Option 1: Run the Notebook
-
-Open the notebook in Jupyter or Google Colab:
-
-Regime_Dependent_Prediction_Under_Market_Uncertainty.ipynb
-
-Then run all cells from top to bottom.
-
-Option 2: Run the Python Script
-
-python GitHub_Ready_Regime_Uncertainty_ML_Project.py
-
-⸻
-
 Dependencies
 
 The project uses standard Python data science libraries:
@@ -247,37 +213,6 @@ pip install tensorflow
 
 If TensorFlow is not installed, the project automatically uses an EWMA volatility proxy instead.
 
-⸻
-
-Example Research Interpretation
-
-The project evaluates whether more flexible machine learning models outperform simpler models consistently across regimes. In many forecasting settings, a model may show strong aggregate performance but unstable performance across high-volatility periods. This distinction matters for decision-making because operational decisions often depend not only on average accuracy but also on reliability during uncertain or stressful conditions.
-
-By comparing models across market regimes and rolling windows, the project provides a more robust evaluation framework than a single static train-test split.
-
-⸻
-
-Skills Demonstrated
-
-This project demonstrates skills in:
-
-* Python programming
-* Machine learning model development
-* Financial time-series feature engineering
-* Experimental design
-* Model evaluation
-* Robustness checks
-* Rolling-window validation
-* Research-oriented interpretation
-* Data-driven decision-making under uncertainty
-
-⸻
-
-Suggested Citation / Project Description
-
-A concise description of the project:
-
-Developed a regime-aware machine learning framework to study predictive model reliability under financial market uncertainty. The project compares supervised learning models against benchmark decision rules, evaluates overfitting risk, and analyzes regime-specific and rolling-window performance to assess model robustness under non-stationary conditions.
 
 ⸻
 
@@ -285,8 +220,3 @@ Author
 
 Jie Chen
 
-⸻
-
-Disclaimer
-
-This project is for academic and research demonstration purposes only. It is not intended as financial advice, investment guidance, or a trading system.
