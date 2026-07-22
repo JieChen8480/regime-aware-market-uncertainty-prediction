@@ -46,4 +46,4 @@ The study uses a simplified binary prediction target, relies mainly on classific
 
 Relevance
 
-This project reflects broader interests in forecasting under non-stationarity, model robustness, and empirical analysis of predictive systems in changing environments.
+This project reflects broader interests in forecasting under non-stationarity, model robustness, and empirical analysis of predictive systems in changing environments. It is best understood as a reproducible research artifact on regime-aware evaluation, rather than as a production-ready trading framework.
