@@ -1,4 +1,3 @@
-research_summary.md
 
 Research Summary
 
